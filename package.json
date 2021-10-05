@@ -1,0 +1,22 @@
+{
+  "name": "ruler",
+  "version": "1.0.0",
+  "description": "projecteuler.net cli problem description fetching client.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "rule": "./index.js",
+    "ruler": "./index.js"
+  },
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
