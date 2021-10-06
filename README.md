@@ -6,7 +6,7 @@ CLI utility to fetch (projecteuler)[https://projecteuler.net/] problems by probl
 
 download the latest release and install with
 
-> `npm i -g ./ruler-1.0.0.tgz`
+`npm i -g ./ruler-1.0.0.tgz`
 
 run with commands `rule` and `ruler`
 

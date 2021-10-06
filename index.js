@@ -3,7 +3,6 @@ import axios from "axios"
 import * as cheerio from "cheerio"
 import {ArgumentParser} from "argparse"
 
-// helper methods & aliases
 const log = console.log;
 
 // parsing arguments
@@ -44,10 +43,8 @@ parser.add_argument('-p', '--problem', {
 */
 
 const ARGS = parser.parse_args();
-// log(ARGS)
 
 const url = ((ARGS.minimal) ? "https://projecteuler.net/minimal=" : "https://projecteuler.net/problem=") + ARGS.problem_number;
-// log({url}); // this is a place where semi colon is veery important
 
 (async function main() {
     const res = await axios.get(url).catch(console.log);
