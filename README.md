@@ -1,6 +1,6 @@
 # Ruler
 
-CLI utility to fetch (projecteuler)[https://projecteuler.net/] problems by problem numbers
+CLI utility to fetch [projecteuler](https://projecteuler.net/) problems by problem numbers
 
 ## Installation
 
@@ -26,5 +26,3 @@ optional arguments:
   -m, --minimal  specify if minimal page should be scraped [doesnt include the title]
 
 ```
-
-
