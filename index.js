@@ -73,8 +73,8 @@ function write(text) {
             exit(`ERROR: Data for that problem cannot be found\n`)
         }
         const title = doc('h2').text();
-        const probNo = `Problem ${ARGS.problem_number}`
-        const problem_content = doc(".problem_content").text()
+        const probNo = doc('#problem_info').text();
+        const problem_content = doc(".problem_content").text();
 
         const compiled_text = [title, probNo, problem_content].join("\n");
         write(compiled_text)
